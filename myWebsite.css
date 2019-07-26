@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(42, 42, 42);
+    height:100%;
+    width: 100%;
+}
+
+.effect{
+    position:absolute;
+    font-family: 'Geostar', cursive;
+    padding-top: 10%;
+    width:100%;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    color: #0892d0;
+}
+
+h1{
+    position: absolute;
+    font-family: 'Geostar', cursive;
+    width:100%;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+
+.images{
+    display: flex;
+    padding-top: 17%;
+    font-size: 70px;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-bottom: 3%;
+}
+
+.main{
+    margin-top: 10%;
+    border-bottom: 2px solid #0892d0;
+    border-top: 2px solid #0892d0;
+}
+
+.firstCircle{
+    display: flex;
+    width: 100%;
+    margin-top: -0.57%;
+    position: absolute;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.secondCircle{
+    display: flex;
+    margin-top: 25.80%;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+a {
+    color: whitesmoke;
+}
+
+.images a:hover {
+    color: #0892d0;
+}
