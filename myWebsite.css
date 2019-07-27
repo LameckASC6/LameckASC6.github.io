@@ -1,9 +1,25 @@
 body{
-    background-color: rgb(42, 42, 42);
+    margin: 0;
+    padding: 0;
+/*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
+    background: #333;
+    background-attachment: fixed;
+    background-size: cover;
     height:100%;
     width: 100%;
-    margin: 0;
 }
+
+#video-background {
+    /*  making the video fullscreen  */
+      position: fixed;
+      right: 0; 
+      bottom: 0;
+      min-width: 100%; 
+      min-height: 100%;
+      width: auto; 
+      height: auto;
+      z-index: -100;
+    }
 
 html{
     width: 100%;
@@ -12,19 +28,20 @@ html{
 .effect{
     position:absolute;
     font-family: 'Geostar', cursive;
-    padding-top: 10%;
+    margin-top: 12.46%;
     width:100%;
-    font-size: 35px;
-    display: flex;
-    justify-content: center;
+    font-size: 3vw;
+    text-align: center;
+    display: inline-block;
     color: #0892d0;
 }
 
 h1{
     position: absolute;
     font-family: 'Geostar', cursive;
+    margin-top: 5%;
     width:100%;
-    font-size: 70px;
+    font-size: 5vw;
     display: flex;
     justify-content: center;
     color: whitesmoke;
@@ -34,7 +51,7 @@ h1{
 .images{
     display: flex;
     padding-top: 17%;
-    font-size: 70px;
+    font-size: 5vw;
     justify-content: center;
     justify-content: space-evenly;
     padding-bottom: 3%;
@@ -42,14 +59,15 @@ h1{
 
 .main{
     margin-top: 10%;
-    border-bottom: 2px solid #0892d0;
-    border-top: 2px solid #0892d0;
+    border-bottom: .10vw solid #0892d0;
+    border-top: .10vw solid #0892d0;
 }
 
 .firstCircle{
     display: flex;
+    font-size: 3vw;
     width: 100%;
-    margin-top: -0.57%;
+    margin-top: -1.48%;
     position: absolute;
     justify-content: center;
     color: whitesmoke;
@@ -57,7 +75,8 @@ h1{
 
 .secondCircle{
     display: flex;
-    margin-top: 25.80%;
+    font-size: 3vw;
+    margin-top: 26.03%;
     width: 100%;
     position: absolute;
     justify-content: center;
@@ -70,4 +89,48 @@ a {
 
 .images a:hover {
     color: #0892d0;
+}
+
+.arrowsLeft a:hover {
+    color: #0892d0;
+}
+
+.arrowsRight a:hover {
+    color: #0892d0;
+}
+
+.arrowsLeft{
+    display: flex;
+    position: absolute;
+    color: whitesmoke;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 11.28%;
+    font-size: 10vh;
+    font-size: 4vw;
+}
+
+.arrowsRight{
+    position: absolute;
+    color: whitesmoke;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 11.28%;
+    font-size: 10vh;
+    font-size: 4vw;
+}
+
+
+
+@media (max-width: 255px){
+    .images{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-bottom: 3%;
+    }
 }
