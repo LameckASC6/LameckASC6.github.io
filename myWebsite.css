@@ -1,3 +1,9 @@
+html{
+    width:100%;
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -27,11 +33,7 @@ body{
       z-index: -100;
     }
 
-html{
-    width: 100%;
-}
-
-.effect{
+.suptitle{
     position:absolute;
     font-family: 'Geostar', cursive;
     margin-top: 12.46%;
@@ -83,16 +85,17 @@ h1{
     display: flex;
     font-size: 3vw;
     width: 100%;
-    margin-top: -1.48%;
+    margin-top: 8.52%;
     position: absolute;
     justify-content: center;
     color: whitesmoke;
+    z-index: 100;
 }
 
 .secondCircle{
     display: flex;
     font-size: 3vw;
-    margin-top: 24.48%;
+    margin-top: 34.48%;
     width: 100%;
     position: absolute;
     justify-content: center;
@@ -106,40 +109,34 @@ a {
     color: #0892d0;
 }
 
-.arrowsLeft :hover {
-    color: #0892d0;
-    cursor: pointer;
-}
-
-.arrowsRight :hover {
-    color: #0892d0;
-    cursor: pointer;
-}
-
-.arrowsLeft{
+#right{
     display: flex;
     position: absolute;
-    color: whitesmoke;
-    width: 4%;
-    margin-left:96%;
-    justify-content: flex-end;
-    margin-top: 11.28%;
     font-size: 10vh;
-    font-size: 4vw;
+    font-size: 5vw;
+    margin-top: -58%;
+    margin-left: -40%
 }
 
-.arrowsRight{
-    position: absolute;
-    color: whitesmoke;
+#left{
     display: flex;
-    width: 4%; 
-    justify-content: flex-start;
-    margin-top: 11.28%;
+    position: absolute;
     font-size: 10vh;
-    font-size: 4vw;
+    font-size: 5vw;
+    margin-top: -58%;
+    margin-left: -40%
 }
 
-
+.carousel-control-next{
+	margin-top: 20.58%;
+	width: 4vw;
+	height: 4vh;
+}
+.carousel-control-prev{
+	margin-top: 20.58%;
+	width: 4vw;
+	height: 4vh;
+}
 
 @media (max-width: 255px){
     .images{
