@@ -91,7 +91,7 @@ h1{
 .secondCircle{
     display: flex;
     font-size: 3vw;
-    margin-top: 26.03%;
+    margin-top: 24.48%;
     width: 100%;
     position: absolute;
     justify-content: center;
@@ -101,19 +101,15 @@ h1{
 a {
     color: whitesmoke;
 }
-
-i:hover{
-    color: #0892d0;
-}
 .images a:hover {
     color: #0892d0;
 }
 
-.arrowsLeft a:hover {
+.arrowsLeft :hover {
     color: #0892d0;
 }
 
-.arrowsRight a:hover {
+.arrowsRight :hover {
     color: #0892d0;
 }
 
