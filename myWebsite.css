@@ -38,13 +38,13 @@ html{
     width:inherit;
     font-size: 3vw;
     text-align: center;
-    display: inline-block;
     color: #0892d0;
+    font-weight: bold;
     text-shadow:
-		-2px -1px 0 whitesmoke,
-		2px -1px 0 whitesmoke,
-		-2px 1px 0 whitesmoke,
-		2px 1px 0 whitesmoke;
+		-0vw -0vw 0 #0892d0,
+		0vw -0vw 0 #0892d0,
+		-0vw 0vw 0 #0892d0,
+		0vw 0vw 0 #0892d0;
 }
 
 h1{
@@ -55,11 +55,12 @@ h1{
     font-size: 5vw;
     text-align: center;
     color: whitesmoke;
+    font-weight: bold;
     text-shadow:
-		-4px -4px 0 #0892d0,
-		4px -4px 0 #0892d0,
-		-4px 4px 0 #0892d0,
-		4px 4px 0 #0892d0;
+		-0.1vw -0.1vw 0 #0892d0,
+		0.1vw -0.1vw 0 #0892d0,
+		-0.1vw 0.1vw 0 #0892d0,
+		0.1vw 0.1vw 0 #0892d0;
 }
 
 
@@ -107,10 +108,12 @@ a {
 
 .arrowsLeft :hover {
     color: #0892d0;
+    cursor: pointer;
 }
 
 .arrowsRight :hover {
     color: #0892d0;
+    cursor: pointer;
 }
 
 .arrowsLeft{
