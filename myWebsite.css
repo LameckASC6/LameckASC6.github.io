@@ -73,6 +73,17 @@ h1{
 		0.1vw 0.1vw 0 #0892d0;
 }
 
+.footerImages{
+    display: flex;
+    padding-top: 1%;
+    font-size: 5vw;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.hidden{
+    opacity: 0%;
+}
 
 .images{
     display: flex;
