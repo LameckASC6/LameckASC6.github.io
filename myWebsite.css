@@ -81,9 +81,6 @@ h1{
     justify-content: space-evenly;
 }
 
-.hidden{
-    opacity: 0%;
-}
 
 .images{
     display: flex;
@@ -94,6 +91,17 @@ h1{
     padding-bottom: 3%;
 }
 
+p{
+	color: whitesmoke;
+	font-size: 2vw;
+}
+.content{
+    display: flex;
+    margin-top: 3%;
+    font-size: 5vw;
+    flex-direction: column;
+    margin-bottom: 3%;
+}
 .main{
     margin-top: 10%;
     border-bottom: .10vw solid #0892d0;
