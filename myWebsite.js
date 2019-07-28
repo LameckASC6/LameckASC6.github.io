@@ -1,8 +1,15 @@
 function read() {
-    let x = document.getElementById("more");
-    if (x.style.display === "none") {
-      x.style.display = "block";
+    let more = document.getElementById("more");
+    let moreCircles = document.getElementById("moreCircles");
+    let secondCircle = document.getElementById("secondCircleButton");
+    
+    if (more.style.display === "none") {
+      more.style.display = "block";
+      moreCircles.style.display = "flex";
+      secondCircle.style.display = "none";
     } else {
-      x.style.display = "none";
+      more.style.display = "none";
+      moreCircles.style.display = "none";
+      secondCircle.style.display = "flex";
     }
   }

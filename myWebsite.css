@@ -120,7 +120,7 @@ p{
 	margin-top: 0.28245vw;
 }
 
-.secondCircle .arrowButton:hover{
+#secondCircleButton .arrowButton:hover{
 	color: #0892d0;
 }
 
@@ -151,6 +151,39 @@ p{
     color: whitesmoke;
 }
 
+#secondCircleButton{
+    display: flex;
+    font-size: 3vw;
+    margin-top: 34.48%;
+	margin-left: 48.5vw;
+    position: absolute;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+#moreCircles{
+    display: none;
+    font-size: 3vw;
+    margin-top: 69%;
+	margin-left: 48.5vw;
+    position: absolute;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.secondArrowButton{
+    position: absolute;
+	color: black;
+	font-size: 3vw;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin-top: -0.12vw;
+}
+
+#moreCircles .secondArrowButton:hover{
+    color: #0892d0;
+}
 a {
     color: whitesmoke;
 }
