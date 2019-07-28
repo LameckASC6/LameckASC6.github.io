@@ -81,6 +81,9 @@ h1{
     justify-content: space-evenly;
 }
 
+.indent{
+    padding-left: 5vw;
+}
 
 .images{
     display: flex;
@@ -100,8 +103,33 @@ p{
     margin-top: 3%;
     font-size: 5vw;
     flex-direction: column;
-    margin-bottom: 3%;
+    margin-bottom: 2%;
 }
+
+#more{
+    display: none;
+}
+
+button{
+	position: absolute;
+    background-color: whitesmoke;
+	font-size: 2.75vw;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 48.48vw;
+    margin-top: 34.1%;
+}
+
+button :hover{
+	color: #0892d0; 
+}
+
+.arrowButton{
+	margin-top: -0.80vw;
+}
+
 .main{
     margin-top: 10%;
     border-bottom: .10vw solid #0892d0;
