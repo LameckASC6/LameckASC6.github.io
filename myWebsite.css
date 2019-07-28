@@ -97,13 +97,14 @@ h1{
 p{
 	color: whitesmoke;
 	font-size: 2vw;
+	margin: 0.3vw;
 }
 .content{
     display: flex;
-    margin-top: 3%;
+    margin-top: 2%;
     font-size: 5vw;
     flex-direction: column;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
 }
 
 #more{
