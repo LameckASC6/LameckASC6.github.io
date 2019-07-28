@@ -110,24 +110,14 @@ p{
     display: none;
 }
 
-button{
-	position: absolute;
-    background-color: whitesmoke;
-	font-size: 2.75vw;
-    width: 3vw;
-    height: 3vw;
-    border-radius: 50%;
-    text-align: center;
-    margin-left: 48.48vw;
-    margin-top: 34.1%;
-}
-
-button :hover{
-	color: #0892d0; 
-}
-
 .arrowButton{
-	margin-top: -0.80vw;
+	position: absolute;
+	color: black;
+	font-size: 3vw;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin-top: 0.28245vw;
 }
 
 .main{
