@@ -120,6 +120,10 @@ p{
 	margin-top: 0.28245vw;
 }
 
+.secondCircle .arrowButton:hover{
+	color: #0892d0;
+}
+
 .main{
     margin-top: 10%;
     border-bottom: .10vw solid #0892d0;
@@ -141,7 +145,7 @@ p{
     display: flex;
     font-size: 3vw;
     margin-top: 34.48%;
-    width: 100%;
+	margin-left: 48.5vw;
     position: absolute;
     justify-content: center;
     color: whitesmoke;
